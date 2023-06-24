@@ -15,9 +15,11 @@
   },
   "homepage": "https://github.com/ChezCoder/IMathify#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "cors": "^2.8.5"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
     "@types/cors": "^2.8.13"
   }
 }
