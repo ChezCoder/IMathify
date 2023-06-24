@@ -1,2 +1,6 @@
+# node
 node_modules
 tests
+
+# build your own source maps >:(
+*.js.map

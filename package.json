@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Free online math solver",
   "main": "README.md",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChezCoder/IMathify.git"
@@ -14,5 +13,11 @@
   "bugs": {
     "url": "https://github.com/ChezCoder/IMathify/issues"
   },
-  "homepage": "https://github.com/ChezCoder/IMathify#readme"
+  "homepage": "https://github.com/ChezCoder/IMathify#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13"
+  }
 }
