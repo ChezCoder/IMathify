@@ -296,6 +296,9 @@ int main() {
         { "(2*3+3*4)"       , 18    },  // Report from @2kaud.
         { "(3)+(4)"         , 7     },  // Report from @kayshav.
         { "(-3)*(-2^3)"     , 24    },  // Unary '-'
+        
+        // TODO floating point numbers
+        // { "0.1^-3"          , 1000  },  // Negative exponents
     };
 
     int errorCount = 0;
