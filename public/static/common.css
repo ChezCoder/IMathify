@@ -1,0 +1,39 @@
+* {
+    font-family: Arial;
+    /* transition: background 1s, color 1s; */
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-name {
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(0deg, #000000, #00ff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent!important;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-1-1" gradientUnits="userSpaceOnUse" x1="250" y1="0" x2="250" y2="500" gradientTransform="matrix(0.765121, -0.643887, 0.694804, 0.804498, -101.308536, 220.740664)" xlink:href="#gradient-1"/>
+    <linearGradient id="gradient-1" bx:pinned="true">
+      <title>color</title>
+      <stop offset="0" style="stop-color: rgb(123, 0, 255);"/>
+      <stop offset="1" style="stop-color: rgb(236, 21, 68); stop-opacity: 0.92;"/>
+    </linearGradient>
+    <linearGradient id="gradient-1-0" gradientUnits="userSpaceOnUse" x1="249.465" y1="56.456" x2="249.465" y2="460.131" gradientTransform="matrix(0.873478, 0.486863, -0.525563, 0.897044, 161.57625, -112.958707)" xlink:href="#gradient-1"/>
+  </defs>
+  <rect style="stroke: rgba(0, 0, 0, 0); fill: url(#gradient-1-1);" width="500" height="500" rx="100" ry="100"/>
+  <path style="paint-order: fill; fill: url(#gradient-1-0); fill-opacity: 0.26;" d="M 78.496 100.495 C 161.918 18.866 407.533 55.868 458.328 169.031 C 482.823 223.602 493.057 269.634 449.573 370.224 C 417.212 445.084 333.248 507.874 251.055 409.784 C 215.461 367.305 85.905 438.059 46.659 373.743 C 0.443 298.004 14.557 163.06 78.496 100.495 Z" transform="matrix(0.984808, -0.173648, 0.173648, 0.984808, -41.062229, 47.243118)"/>
+  <g style="" transform="matrix(1.232026, 0, 0, 1.232026, -52.004063, -1.295466)">
+    <title>IM</title>
+    <g style="" transform="matrix(1.993311, 0, 0, 2.013445, -301.658569, -98.08902)">
+      <title>I</title>
+      <rect style="paint-order: fill; stroke: rgba(255, 255, 255, 0);" x="207.53" y="100" width="81.439" height="10.778" rx="5.4" ry="5.4"/>
+      <rect style="paint-order: fill; stroke: rgba(255, 255, 255, 0);" x="207.53" y="189.222" width="81.439" height="10.778" rx="5.384" ry="5.384"/>
+      <rect x="248.975" y="144.014" width="100" height="10.778" style="paint-order: fill; stroke: rgba(255, 255, 255, 0);" transform="matrix(0.000001, 1, -1, 0.000001, 399.48819, -148.975143)"/>
+    </g>
+    <g transform="matrix(1.012981, 0, 0, 1.012981, -74.560463, -199.511261)" style="">
+      <title>M</title>
+      <path style="paint-order: fill; stroke: rgba(255, 255, 255, 0); fill: rgb(0, 255, 47);" transform="matrix(0.258819, -0.965926, 0.965926, 0.258819, -39.509155, 826.678833)" d="M 405.4 200 H 590 A 10 10 0 0 1 600 210 V 211.556 A 10 10 0 0 1 590 221.556 H 405.4 A 5.4 5.4 0 0 1 400 216.156 V 205.4 A 5.4 5.4 0 0 1 405.4 200 Z" bx:shape="rect 400 200 200 21.556 5.4 10 10 5.4 1@a7a9c444"/>
+      <path style="paint-order: fill; stroke: rgba(255, 255, 255, 0); fill: rgb(0, 255, 47);" d="M 410 200 H 589.2 A 10.8 10.778 0 0 1 600 210.778 V 210.778 A 10.8 10.778 0 0 1 589.2 221.556 H 410 A 10 10 0 0 1 400 211.556 V 210 A 10 10 0 0 1 410 200 Z" transform="matrix(0.258819, 0.965926, -0.965926, 0.258819, 414.46344, -139.247253)" bx:shape="rect 400 200 200 21.556 10 10.8 10.8 10 1@8961727a"/>
+      <path style="paint-order: fill; stroke: rgba(255, 255, 255, 0); fill: rgb(0, 255, 47);" d="M 410 200 H 589.2 A 10.8 10.778 0 0 1 600 210.778 V 210.778 A 10.8 10.778 0 0 1 589.2 221.556 H 410 A 10 10 0 0 1 400 211.556 V 210 A 10 10 0 0 1 410 200 Z" transform="matrix(0.25882, -0.965926, 0.965926, 0.25882, 54.03019, 826.67865)" bx:shape="rect 400 200 200 21.556 10 10.8 10.8 10 1@8961727a"/>
+      <path style="paint-order: fill; stroke: rgba(255, 255, 255, 0); fill: rgb(0, 255, 47);" transform="matrix(0.258819, 0.965926, -0.965926, 0.258819, 507.628845, -139.247223)" d="M 410 200 H 594.6 A 5.4 5.4 0 0 1 600 205.4 V 216.156 A 5.4 5.4 0 0 1 594.6 221.556 H 410 A 10 10 0 0 1 400 211.556 V 210 A 10 10 0 0 1 410 200 Z" bx:shape="rect 400 200 200 21.556 10 5.4 5.4 10 1@05138b70"/>
+    </g>
+  </g>
+</svg>

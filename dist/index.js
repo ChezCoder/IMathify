@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const Configuration_1 = require("./Configuration");
 const API_1 = require("./API");
+const Configuration_1 = require("./Configuration");
 const PORT = Configuration_1.Configuration.readValue("PORT");
 const App = (0, express_1.default)();
 // - Express config - //
@@ -14,8 +14,8 @@ App.set("views", "public");
 App.use(express_1.default.json());
 App.use(express_1.default.urlencoded({ "extended": true }));
 // - Static routes - //
-App.use("/static", express_1.default.static("static"));
 App.use("/", express_1.default.static("public/home"));
+App.use("/static", express_1.default.static("public/static"));
 API_1.API.configureRoutes(App);
 App.listen(PORT, () => {
     console.log(`Listening on :${PORT}`);

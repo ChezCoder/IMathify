@@ -13,7 +13,7 @@ var API;
         });
     }
     API.configureRoutes = configureRoutes;
-})(API = exports.API || (exports.API = {}));
+})(API || (exports.API = API = {}));
 var APIResult;
 (function (APIResult) {
     ;

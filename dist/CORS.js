@@ -8,7 +8,10 @@ const cors_1 = __importDefault(require("cors"));
 var CORS;
 (function (CORS) {
     // TODO configure
-    CORS.CONFIG = {};
+    CORS.CONFIG = {
+        origin: "*",
+        methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD"].join(",")
+    };
     CORS.MIDDLEWARE = (0, cors_1.default)(CORS.CONFIG);
-})(CORS = exports.CORS || (exports.CORS = {}));
+})(CORS || (exports.CORS = CORS = {}));
 //# sourceMappingURL=CORS.js.map

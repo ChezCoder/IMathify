@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Free online math solver",
   "main": "README.md",
-  "scripts": {},
+  "scripts": {
+    "serve": "nodemon --config nodemon.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChezCoder/IMathify.git"

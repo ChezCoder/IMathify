@@ -3,15 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="/static/common.css">
+        <link rel="shortcut icon" href="/static/logo.svg" type="image/x-icon">
         <title>IMathify</title>
     </head>
     <body class="dark">
-        <dialog>
-            <h1>IMathify</h1>
-            <div class="loader"></div>
-        </dialog>
+        <main>
+            <div class="eyecatcher">
+                <div class="questions-solved-display">
+                    <span id="questions-solved">0</span>
+                    <span class="questions-solved-c">Questions Solved</span>
+                </div>
+                <div class="get-started">
+                    <span>Stumped? Let us walk you through it step by step.</span>
+                    <button id="getstarted">
+                        <span>Get Started</span>
+                        <div class="button-under"></div>
+                    </button>
+                </div>
+            </div>
+        </main>
         
-        <script src="/static/common.js"></script>
+        <script src="/static/dsl.js"></script>
     </body>
 </html>

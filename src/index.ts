@@ -1,6 +1,7 @@
 import express from "express";
-import { Configuration } from "./Configuration";
+
 import { API } from "./API";
+import { Configuration } from "./Configuration";
 
 const PORT = Configuration.readValue("PORT");
 const App = express();
@@ -13,8 +14,8 @@ App.use(express.json());
 App.use(express.urlencoded({ "extended": true }));
 
 // - Static routes - //
-App.use("/static", express.static("static"));
 App.use("/", express.static("public/home"));
+App.use("/static", express.static("public/static"));
 
 API.configureRoutes(App);
 

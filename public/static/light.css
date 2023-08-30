@@ -1,0 +1,7 @@
+body.light {
+    background: #ffffff;
+}
+
+body.light * {
+    color: #000000;
+}

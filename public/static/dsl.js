@@ -9,18 +9,22 @@ window.addEventListener("load", function() {
 
         // mdb.css
         { "type": "css", "src": "/static/lib/mdb/css/mdb.min.css" },
+        
+        // common js
+        { "type": "js", "src": "/static/common.js" },
 
         // dark theme
         { "type": "css", "src": "/static/dark.css" },
 
         // light theme
         { "type": "css", "src": "/static/light.css" },
-
+        
         // main script.js
         { "type": "js", "src": "./script.js" },
 
-        // common css
-        { "type": "css", "src": "/static/common.css" },
+        // main styles.css
+        { "type": "css", "src": "./styles.css" },
+
     ];
 
     const LOG_STYLES = [
