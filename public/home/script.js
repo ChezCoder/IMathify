@@ -49,8 +49,6 @@ function questionsSolvedAnimation() {
     steps.reverse();
     
     const $questionsSolved = $("#questions-solved");
-    
-    console.log(steps);
 
     for (let i = 0;i < steps.length;i++) {
         const step = steps[i];

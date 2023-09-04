@@ -25,6 +25,7 @@ main {
     /* width: 450px; */
     font-size: 100px;
     z-index: 1;
+    text-align: center;
 }
 
 .questions-solved-c {

@@ -1,5 +1,25 @@
+@font-face {
+    font-family: Dosis;
+    src: url("fonts/Dosis/Dosis-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("fonts/Dosis/Dosis-Light.ttf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url("fonts/Dosis/Dosis-Bold.ttf");
+    font-weight: bold;
+}
+
+
 * {
-    font-family: Arial;
+    font-family: Dosis;
+    font-weight: normal;
     /* transition: background 1s, color 1s; */
 }
 
@@ -36,4 +56,40 @@ header {
 .logo-image {
     width: 40px;
     height: 40px;
+}
+
+.nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-button {
+    position: relative;
+    border: none;
+    color: white;
+    font-size: 20px;
+    min-width: 70px;
+}
+
+.bg-pan-text {
+    z-index: 2;
+    position: relative;
+}
+
+.bg-pan-div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    z-index: 1;
+    transition: width 0.5s cubic-bezier(.05, 0.5, 0.2, 1);
+}
+
+.nav-button:hover .bg-pan-div {
+    width: 100%;
 }
